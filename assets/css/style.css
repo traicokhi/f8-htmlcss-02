@@ -24,7 +24,7 @@ a {
 .header {
     position: sticky;
     z-index: 1;
-    padding: 36px 0 0 0;
+    padding: 36px 0 12px;
     top: -24px;
     background: #FFFCF4;
 }
@@ -94,7 +94,7 @@ a {
 
 /* Hero */
 .hero-wrap {
-    height: calc(100vh - 86px);
+    height: calc(100vh - 98px);
     /* padding-top: 40px; */
     background: #FFFCF4;
 }
