@@ -101,9 +101,11 @@ a {
 
 .hero-wrap .content {
     display: flex;
+    align-items: center;
 }
 
 .hero-wrap .hero-img-block {
+    position: relative;
     display: inline-block;
     width: 570px;
 }
@@ -168,6 +170,9 @@ a {
     height: 40px;
     border-radius: 40px;
     background: #FFF;
+}
+
+.hero-wrap .action-btn .icon:hover {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -206,4 +211,45 @@ a {
     font-size: 4.4rem;
     font-weight: 700;
     line-height: 54px; /* 122.727% */
+}
+
+.hero-wrap .courses-block {
+    position: absolute;
+    right: -100px;
+    bottom: 48px;
+    width: 270px;
+    height: 244px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero-wrap .courses-group {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 28px 24px;
+}
+
+.hero-wrap .courses-item {
+    display: flex;
+    align-items: center;
+}
+
+.hero-wrap .courses-stats {
+    margin-left: 16px;
+}
+
+.hero-wrap .course-qty {
+    color: #5F5B53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+}
+
+.hero-wrap .course-name {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
 }
