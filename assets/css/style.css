@@ -3,6 +3,10 @@
 }
 
 /* Common */
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     font-family: Poppins;
@@ -39,8 +43,8 @@ body {
 .header {
     position: sticky;
     z-index: 1;
-    padding: 36px 0 12px;
-    top: -24px;
+    padding: 36px 0 8px;
+    top: -28px;
     background: #fffcf4;
 }
 
@@ -56,8 +60,7 @@ body {
 
 .header .navigation {
     display: flex;
-    gap: 42px;
-    margin-left: 512px;
+    margin-left: auto;
 }
 
 .header .navigation a:first-child {
@@ -72,7 +75,7 @@ body {
 .header .navigation a:first-child::after {
     content: "";
     bottom: 2px;
-    left: 0;
+    left: 21px;
     position: absolute;
     width: 12px;
     height: 2px;
@@ -83,6 +86,7 @@ body {
 
 .header .navigation a {
     color: #5f5b53;
+    padding: 0 21px;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
@@ -90,7 +94,7 @@ body {
 }
 
 .header .action {
-    margin-left: auto;
+    margin-left: 49px;
 }
 
 .header .action a {
@@ -109,8 +113,7 @@ body {
 
 /* Hero */
 .hero-wrap {
-    height: calc(100vh - 98px);
-    /* padding-top: 40px; */
+    height: calc(100vh - 94px);
     background: #fffcf4;
 }
 
@@ -703,7 +706,7 @@ body {
 .footer .column:nth-child(2) {
     display: flex;
     justify-content: space-between;
-    width: 903px;
+    width: 900px;
     margin-left: 145px;
 }
 
