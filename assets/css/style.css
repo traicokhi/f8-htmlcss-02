@@ -17,12 +17,22 @@ html, body {
 }
 
 a {
+    display: block;
     text-decoration: none;
 }
 
 body {
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
+}
+
+.btn {
+    text-align: center;
+    border-radius: 999px;
+    width: 118px;
+    height: 50px;
+    background: #171100;
+    line-height: 50px;
 }
 
 /* Header */
@@ -379,19 +389,15 @@ body {
     line-height: 30px; /* 166.667% */
 }
 
-.courses .book-btn {
-    width: 118px;
-    height: 50px;
+.courses .btn {
     border-radius: 25px;
     background: #171100;
     color: #FFF;
-    text-align: center;
     font-size: 1.4rem;
     font-weight: 600;
-    line-height: 50px;
 }
 
-.courses .book-btn:hover {
+.courses .btn:hover {
     background: #FFB900;
 }
 
@@ -462,4 +468,100 @@ body {
 
 .feedback .slider-item:nth-child(2) {
     background: #FFB900;
+}
+
+/* Feature */
+.feature {
+    padding: 136px 0;
+}
+
+.feature .row {
+    display: flex;
+    align-items: center;
+}
+
+.feature .img-block {
+    position: relative;
+    width: 570px;
+    height: 438px;
+}
+
+.feature .image {
+    position: absolute;
+    display: inline-block;
+    object-fit: cover;
+    width: 270px;
+    height: 405px;
+    border-radius: 16px;
+}
+
+.feature .image:first-child {
+    left: 0;
+    bottom: 0;
+}
+
+.feature .image:last-child {
+    top: 0;
+    right: 0;
+}
+
+.feature .row-desc {
+    width: 600px;
+    padding-left: 130px;
+}
+
+.feature .heading {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.feature .desc {
+    margin-top: 16px;
+    color: #5F5B53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.feature .lesson {
+    margin-top: 16px;
+    color: #5F5B53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.feature .btn {
+    margin-top: 32px;
+    color: #FFF;
+    background: #FFB900;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.feature .feature-down {
+    flex-direction: row-reverse;
+    padding-top: 200px;
+}
+
+.feature .feature-down .row-desc {
+    width: 570px;
+    padding: 0;
+    left: 0;
+}
+
+.feature .feature-down .img-block {
+    width: 600px;
+}
+
+.feature .feature-down .image {
+    width: 470px;
+    height: 100%;
+    right: 0;
+    left: auto;
 }
