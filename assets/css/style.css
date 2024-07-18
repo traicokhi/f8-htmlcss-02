@@ -3,10 +3,10 @@
 }
 
 /* Common */
-html, body {
+html,
+body {
     font-family: Poppins;
     font-size: 62.5%;
-
 }
 
 .content {
@@ -41,7 +41,7 @@ body {
     z-index: 1;
     padding: 36px 0 12px;
     top: -24px;
-    background: #FFFCF4;
+    background: #fffcf4;
 }
 
 .header .content {
@@ -82,7 +82,7 @@ body {
 }
 
 .header .navigation a {
-    color: #5F5B53;
+    color: #5f5b53;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
@@ -95,7 +95,7 @@ body {
 
 .header .action a {
     display: block;
-    color: #FFF;
+    color: #fff;
     width: 144px;
     height: 50px;
     border-radius: 999px;
@@ -111,7 +111,7 @@ body {
 .hero-wrap {
     height: calc(100vh - 98px);
     /* padding-top: 40px; */
-    background: #FFFCF4;
+    background: #fffcf4;
 }
 
 .hero-wrap .content {
@@ -147,7 +147,7 @@ body {
 
 .hero-wrap .desc {
     margin-top: 22px;
-    color: #5F5B53;
+    color: #5f5b53;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
@@ -162,9 +162,9 @@ body {
 .hero-wrap .action .button {
     width: 180px;
     height: 64px;
-    color: #FFF;
+    color: #fff;
     border-radius: 32px;
-    background: #FFB900;
+    background: #ffb900;
     text-align: center;
     font-size: 1.9rem;
     font-weight: 600;
@@ -184,7 +184,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 40px;
-    background: #FFF;
+    background: #fff;
 }
 
 .hero-wrap .action-btn .icon:hover {
@@ -202,7 +202,7 @@ body {
 .hero-wrap .recently {
     display: block;
     margin-top: 48px;
-    color: #5F5B53;
+    color: #5f5b53;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
@@ -215,7 +215,7 @@ body {
 }
 
 .hero-wrap .name-qty {
-    color: #5F5B53;
+    color: #5f5b53;
     font-size: 1.8rem;
     font-weight: 400;
 }
@@ -235,7 +235,7 @@ body {
     width: 270px;
     height: 244px;
     border-radius: 12px;
-    background: #FFF;
+    background: #fff;
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -256,7 +256,7 @@ body {
 }
 
 .hero-wrap .course-qty {
-    color: #5F5B53;
+    color: #5f5b53;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 26px; /* 185.714% */
@@ -297,7 +297,7 @@ body {
 }
 
 .courses .desc {
-    color: #5F5B53;
+    color: #5f5b53;
     font-family: Poppins;
     font-size: 1.8rem;
     font-weight: 400;
@@ -361,7 +361,7 @@ body {
 }
 
 .courses .score {
-    color: #FEA31B;
+    color: #fea31b;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.75;
@@ -369,7 +369,7 @@ body {
 }
 
 .courses .desc {
-    color: #5F5B53;
+    color: #5f5b53;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 26px; /* 185.714% */
@@ -392,18 +392,18 @@ body {
 .courses .btn {
     border-radius: 25px;
     background: #171100;
-    color: #FFF;
+    color: #fff;
     font-size: 1.4rem;
     font-weight: 600;
 }
 
 .courses .btn:hover {
-    background: #FFB900;
+    background: #ffb900;
 }
 
 /* Feedback */
 .feedback {
-    background: #2E2100;
+    background: #2e2100;
     padding: 32px 0;
 }
 
@@ -420,7 +420,7 @@ body {
 }
 
 .feedback .user-name {
-    color: #F7F7F7;
+    color: #f7f7f7;
     font-family: Sen;
     font-size: 2.4rem;
     font-weight: 700;
@@ -430,7 +430,7 @@ body {
 
 .feedback .job {
     margin-top: 4px;
-    color: #BFBCB2;
+    color: #bfbcb2;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 26px; /* 185.714% */
@@ -446,11 +446,11 @@ body {
 
 .feedback .sentence {
     width: 740px;
-    color: #FFF;
+    color: #fff;
     font-size: 2.6rem;
     font-style: italic;
     font-weight: 400;
-    line-height: 40px; /* 153.846% */   
+    line-height: 40px; /* 153.846% */
 }
 
 .feedback .slider {
@@ -467,7 +467,7 @@ body {
 }
 
 .feedback .slider-item:nth-child(2) {
-    background: #FFB900;
+    background: #ffb900;
 }
 
 /* Feature */
@@ -521,7 +521,7 @@ body {
 
 .feature .desc {
     margin-top: 16px;
-    color: #5F5B53;
+    color: #5f5b53;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.75; /* 175% */
@@ -529,7 +529,7 @@ body {
 
 .feature .lesson {
     margin-top: 16px;
-    color: #5F5B53;
+    color: #5f5b53;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.75; /* 175% */
@@ -537,8 +537,8 @@ body {
 
 .feature .btn {
     margin-top: 32px;
-    color: #FFF;
-    background: #FFB900;
+    color: #fff;
+    background: #ffb900;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 600;
@@ -564,4 +564,119 @@ body {
     height: 100%;
     right: 0;
     left: auto;
+}
+
+/* Blog */
+.blog {
+    padding: 32px 0 0 0;
+    background: #fffcf4;
+}
+
+.blog .sub-heading {
+    color: #130606;
+    text-align: center;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.blog .desc {
+    width: 448px;
+    color: #696262;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+    margin: 16px auto 0;
+}
+
+.blog .blog-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.blog .blog-item {
+    width: 370px;
+    border-radius: 16px;
+    background: #fff;
+}
+
+.blog .blog-group {
+    padding: 20px;
+}
+
+.blog .image {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.blog .date-group {
+    display: flex;
+    align-items: center;
+}
+
+.blog .mark {
+    width: 6px;
+    height: 6px;
+    background: #ffb900;
+    border-radius: 999px;
+}
+
+.blog .date {
+    margin-left: 4px;
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.blog .separate {
+    width: 160px;
+    height: 1px;
+    margin-top: 12px;
+    border-radius: 0.5px;
+    background: #e2dfda;
+}
+
+.blog .heading {
+    margin-top: 12px;
+    color: #171100;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+
+.blog .btn {
+    margin-top: 12px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.blog .btn:hover {
+    background: #ffb900;
+}
+
+.blog .slider {
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+    margin: 38px auto;
+    text-align: center;
+}
+
+.blog .slide {
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: #5f5b53;
+}
+
+.blog .slide:nth-child(2) {
+    background: #ffb900;
 }
