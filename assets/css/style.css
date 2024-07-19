@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #ffb900;
+}
+
 /* Common */
 html {
     scroll-behavior: smooth;
@@ -168,7 +172,7 @@ body {
     height: 64px;
     color: #fff;
     border-radius: 32px;
-    background: #ffb900;
+    background: var(--primary-color);
     text-align: center;
     font-size: 1.9rem;
     font-weight: 600;
@@ -402,7 +406,7 @@ body {
 }
 
 .courses .btn:hover {
-    background: #ffb900;
+    background: var(--primary-color);
 }
 
 /* Feedback */
@@ -471,7 +475,7 @@ body {
 }
 
 .feedback .slider-item:nth-child(2) {
-    background: #ffb900;
+    background: var(--primary-color);
 }
 
 /* Feature */
@@ -542,7 +546,7 @@ body {
 .feature .btn {
     margin-top: 32px;
     color: #fff;
-    background: #ffb900;
+    background: var(--primary-color);
     text-align: center;
     font-size: 1.6rem;
     font-weight: 600;
@@ -630,7 +634,7 @@ body {
 .blog .mark {
     width: 6px;
     height: 6px;
-    background: #ffb900;
+    background: var(--primary-color);
     border-radius: 999px;
 }
 
@@ -666,7 +670,7 @@ body {
 }
 
 .blog .btn:hover {
-    background: #ffb900;
+    background: var(--primary-color);
 }
 
 .blog .slider {
@@ -685,7 +689,7 @@ body {
 }
 
 .blog .slide:nth-child(2) {
-    background: #ffb900;
+    background: var(--primary-color);
 }
 
 /* Footer */
