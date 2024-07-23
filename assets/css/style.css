@@ -228,7 +228,7 @@ body {
     font-weight: 400;
 }
 
-.hero-wrap strong {
+.hero-wrap .stats strong {
     color: #171100;
     font-family: Sen;
     font-size: 4.4rem;
